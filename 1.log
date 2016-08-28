@@ -1,0 +1,100 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building csv2rdf 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ csv2rdf ---
+[INFO] edu.hohai.jx:csv2rdf:jar:1.0-SNAPSHOT
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.6.0:compile
+[INFO] +- commons-io:commons-io:jar:2.4:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+[INFO] +- com.google.code.gson:gson:jar:2.5:compile
+[INFO] +- org.openrdf.sesame:sesame-runtime:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-model:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-util:jar:4.1.2:compile
+[INFO] |  |     \- com.google.guava:guava:jar:18.0:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-api:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-query:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-manager:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-repository-event:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-http:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-sparql:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-contextaware:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-repository-sail:jar:4.1.2:compile
+[INFO] |  |  +- org.openrdf.sesame:sesame-queryalgebra-model:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:4.1.2:compile
+[INFO] |  |     \- org.mapdb:mapdb:jar:1.0.7:compile
+[INFO] |  +- org.openrdf.sesame:sesame-http-client:jar:4.1.2:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+[INFO] |  |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.10:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-sail-api:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-sail-federation:jar:4.1.2:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.10:compile
+[INFO] |  +- org.openrdf.sesame:sesame-queryparser-api:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-queryparser-serql:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-queryparser-sparql:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-queryresultio-api:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-queryresultio-binary:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-queryresultio-sparqljson:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-queryresultio-text:jar:4.1.2:runtime
+[INFO] |  |  \- com.opencsv:opencsv:jar:3.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-repository-dataset:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-http-protocol:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-rio-api:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-rio-datatypes:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-languages:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-binary:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-jsonld:jar:4.1.2:runtime
+[INFO] |  |  \- com.github.jsonld-java:jsonld-java:jar:0.7.0:runtime
+[INFO] |  |     +- org.apache.httpcomponents:httpclient-osgi:jar:4.2.5:runtime
+[INFO] |  |     |  +- org.apache.httpcomponents:httpmime:jar:4.2.5:runtime
+[INFO] |  |     |  +- org.apache.httpcomponents:httpclient-cache:jar:4.2.5:runtime
+[INFO] |  |     |  \- org.apache.httpcomponents:fluent-hc:jar:4.2.5:runtime
+[INFO] |  |     +- org.apache.httpcomponents:httpcore-osgi:jar:4.2.5:runtime
+[INFO] |  |     |  \- org.apache.httpcomponents:httpcore-nio:jar:4.2.5:runtime
+[INFO] |  |     \- org.slf4j:jcl-over-slf4j:jar:1.7.9:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-ntriples:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-rio-nquads:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-n3:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-rdfjson:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-rdfxml:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-trix:jar:4.1.2:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-rio-turtle:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-rio-trig:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-sail-inferencer:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-sail-model:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-sail-lucene:jar:4.1.2:runtime
+[INFO] |  |  +- org.openrdf.sesame:sesame-sail-lucene-api:jar:4.1.2:runtime
+[INFO] |  |  |  \- com.spatial4j:spatial4j:jar:0.4.1:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-core:jar:5.1.0:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-queries:jar:5.1.0:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-highlighter:jar:5.1.0:runtime
+[INFO] |  |  |  +- org.apache.lucene:lucene-join:jar:5.1.0:runtime
+[INFO] |  |  |  \- org.apache.lucene:lucene-memory:jar:5.1.0:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.1.0:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-queryparser:jar:5.1.0:runtime
+[INFO] |  |  |  \- org.apache.lucene:lucene-sandbox:jar:5.1.0:runtime
+[INFO] |  |  +- org.apache.lucene:lucene-spatial:jar:5.1.0:runtime
+[INFO] |  |  |  \- org.apache.lucene:lucene-misc:jar:5.1.0:runtime
+[INFO] |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:runtime
+[INFO] |  +- org.openrdf.sesame:sesame-sail-memory:jar:4.1.2:compile
+[INFO] |  |  \- org.openrdf.sesame:sesame-sail-base:jar:4.1.2:compile
+[INFO] |  +- org.openrdf.sesame:sesame-sail-spin:jar:4.1.2:runtime
+[INFO] |  |  \- org.openrdf.sesame:sesame-spin:jar:4.1.2:runtime
+[INFO] |  |     +- commons-lang:commons-lang:jar:2.6:runtime
+[INFO] |  |     \- org.openrdf.sesame:sesame-queryrender:jar:4.1.2:runtime
+[INFO] |  \- org.openrdf.sesame:sesame-sail-nativerdf:jar:4.1.2:runtime
+[INFO] \- ch.qos.logback:logback-classic:jar:1.0.13:compile
+[INFO]    \- ch.qos.logback:logback-core:jar:1.0.13:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.883 s
+[INFO] Finished at: 2016-08-28T21:24:04+08:00
+[INFO] Final Memory: 18M/179M
+[INFO] ------------------------------------------------------------------------
